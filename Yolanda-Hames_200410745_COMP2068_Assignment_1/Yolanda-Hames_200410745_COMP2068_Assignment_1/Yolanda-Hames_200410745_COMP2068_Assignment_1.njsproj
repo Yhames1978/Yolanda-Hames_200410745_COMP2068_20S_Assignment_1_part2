@@ -37,9 +37,11 @@
     <Content Include="README.md" />
     <Content Include="views\aboutMe.pug" />
     <Content Include="views\contactMe.pug" />
+    <Content Include="views\partials\header.pug" />
+    <Content Include="views\partials\footer.pug" />
     <Content Include="views\services.pug" />
     <Content Include="views\projects.pug" />
-    <Content Include="views\index.pug" />
+    <Content Include="views\home.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
   </ItemGroup>
@@ -50,6 +52,7 @@
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
+    <Folder Include="views\partials\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />

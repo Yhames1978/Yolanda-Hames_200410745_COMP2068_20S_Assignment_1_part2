@@ -4,9 +4,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    var name = "Yolanda Hames Webites"
+    var name = "Yolanda Hames Webite"
 
-    res.render('index', { name: name });
+    res.render('home', { name: name });
 });
 
 router.get('/aboutMe/', function (req, res) {

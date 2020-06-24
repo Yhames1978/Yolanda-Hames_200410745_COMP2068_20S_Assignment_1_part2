@@ -3,17 +3,10 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/main.css')
+     
   body
 
-  ul
-    li
-      a(href='/') Home
-    li
-      a(href='/aboutMe') About Yolanda Hames
-    li
-      a(href='/projects') All Projects
-    li
-      a(href='/services') Services
-    li
-      a(href='/Contact Information') All Projects
-    block content
+     include partials/header
+     
+     block content
+     include partials/footer
