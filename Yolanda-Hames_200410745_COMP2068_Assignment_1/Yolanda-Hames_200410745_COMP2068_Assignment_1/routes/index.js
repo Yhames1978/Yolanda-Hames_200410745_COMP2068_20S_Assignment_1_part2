@@ -20,7 +20,7 @@ router.get('/projects/', function (req, res) {
     res.render('projects', { name: name });
 });
 router.get('/services/', function (req, res) {
-    var name = "Services"
+    var name = "All Services Provided"
 
     res.render('services', { name: name });
 });

@@ -1,8 +1,123 @@
-body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+html {
+    margin: 0;
+    
 }
+body {
+    background-image: url('/Pictures/tree.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: white;
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #000;
+    
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+}
+
+/* Navbar links */
+li {
+    float: left;
+    text-align: center;
+    padding: .2em;
+    color: white;
+    font-size: 40px;
+    
+}
+
+    /* Navbar links on mouse-over */
+    li:hover {
+        background-color: #beccc1;
+    }
+
+/* Current/active navbar link */
+li:active {
+    background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+
 
 a {
     color: #00B7FF;
 }
+.pics {
+
+    display:block;
+    margin-top: 8em;
+    margin-bottom:4em;
+    margin-left:auto;
+    margin-right:auto;
+}
+footer {
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+#table-wrapper {
+    display: flex;
+    width: 100%;
+    margin-left: 40%;
+    margin-right: 65%;
+    top: 150%;
+    font-size: 1.2em;
+}
+
+#desc {
+    width: 25em;
+    border-collapse: collapse;
+    
+}
+th {
+    
+    background-color: black;
+    text-align: left;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+td {
+    background-color: black;
+    
+    padding: .75em;
+    border: 1px solid black;
+}
+h1 {
+    position:absolute;
+    top: 10%; 
+    left: 40%;
+}
+p {
+    font-size: 3em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+h1 {
+    font-size: 5em;
+    position: absolute;
+    top: 0.5em;
+    left: 12em;
+}
+
+
+
+

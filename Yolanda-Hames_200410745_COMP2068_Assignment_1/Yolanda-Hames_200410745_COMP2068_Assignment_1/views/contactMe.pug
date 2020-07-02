@@ -1,4 +1,33 @@
 extends layout
+ 
 
 block content
-  h1= name
+ h1= name
+ img(src='/Pictures/contact2.jpg' alt='Contact' class= 'pics' width= '25%')
+ p
+     #table-wrapper
+        table#desc
+            tr
+              th Yolanda Hames Contact Info
+            tr
+              td Telphone Number
+                
+            tr
+              td Text Message
+            
+            tr
+              td Email
+        table
+            tr
+              th Links
+            tr
+              td Phone Number
+                a(href='tel:1-905-806-7154') Home
+            tr
+              td Message
+                a(href='sms:1-905-806-7154') Text
+            tr
+              tr
+              td Email
+                a(href='mailto:yolandahames@ymail.com') Email
+            tr
